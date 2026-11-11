@@ -157,7 +157,7 @@
     "mathjs": "^15.2.0",
     "memorystore": "^1.6.7",
     "mongodb": "^6.14.2",
-    "mongoose": "^8.24.1",
+    "mongoose": "^8.24.8",
     "nanoid": "^3.3.7",
     "node-fetch": "2.7.0",
     "pdfjs-dist": "^5.4.624",
@@ -174,6 +174,7 @@
   "dependencies": {
     "@langchain/langgraph-checkpoint": "^1.1.2",
     "@langchain/langgraph-checkpoint-mongodb": "^1.4.0",
+    "@librechat/code": "file:../../vendor/code",
     "@simplewebauthn/server": "^13.3.2",
     "cluster-key-slot": "^1.1.2",
     "croner": "^10.0.1",
@@ -181,7 +182,6 @@
     "helmet": "^8.3.0",
     "protobufjs": "^7.6.5",
     "proxy-from-env": "^2.1.0",
-    "re2js": "^2.9.1",
-    "@librechat/code": "file:../../vendor/code"
+    "re2js": "^2.9.1"
   }
 }
